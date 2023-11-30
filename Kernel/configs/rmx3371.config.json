@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "Pikachu-AOSP",
       "repo": "https://github.com/bibindasb/kernel_realme_rmx3371",
-      "branch": "Pi-test",
+      "branch": "pikachu-AOSP",
       "device": "rmx3371",
       "defconfig": "vendor/sm8250_defconfig"
     },
@@ -44,6 +44,8 @@
         "LD": "ld.lld",
         "AR": "llvm-ar",
         "NM": "llvm-nm",
+        "LLVM": "1",
+        "LLVM_IAS": "1",
         "OBJCOPY": "llvm-objcopy",
         "OBJDUMP": "llvm-objdump",
         "READELF": "llvm-readelf",

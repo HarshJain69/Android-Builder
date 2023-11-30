@@ -45,7 +45,6 @@
         "AR": "llvm-ar",
         "NM": "llvm-nm",
         "LLVM": "1",
-        "LLVM_IAS": "1",
         "OBJCOPY": "llvm-objcopy",
         "OBJDUMP": "llvm-objdump",
         "READELF": "llvm-readelf",

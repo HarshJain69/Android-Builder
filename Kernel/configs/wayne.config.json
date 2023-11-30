@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "Mi6X",
-      "repo": "https://github.com/Diva-Room/Miku_kernel_xiaomi_wayne",
-      "branch": "TDA",
-      "device": "wayne",
-      "defconfig": "vendor/wayne_defconfig"
+      "repo": "https://github.com/bibindasb/kernel_realme_rmx3371",
+      "branch": "Pi-test",
+      "device": "rmx3371",
+      "defconfig": "vendor/sm8250_defconfig"
     },
     "toolchains": [
       {
@@ -54,10 +54,14 @@
         "LLVM_DIS": "llvm-dis",
         "CONFIG_THINLTO": ""
       }
-    },
+   },
     "AnyKernel3": {
       "use": true,
-      "release": true
+      "release": true,
+      "custom": {
+        "repo": "https://github.com/bibindasb/Anykernel3/",
+        "branch": "rmx3371"
+      }
     },
     "enableKernelSU": true,
     "enableLXC": false

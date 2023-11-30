@@ -1,7 +1,7 @@
 [
   {
     "kernelSource": {
-      "name": "Mi6X",
+      "name": "sm8250",
       "repo": "https://github.com/bibindasb/kernel_realme_rmx3371",
       "branch": "Pi-test",
       "device": "rmx3371",

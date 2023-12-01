@@ -1,7 +1,7 @@
 [
   {
     "kernelSource": {
-      "name": "Pikachu-AOSP",
+      "name": "Pikachu-RUI",
       "repo": "https://github.com/bibindasb/kernel_realme_rmx3371",
       "branch": "Pikachu-RUI",
       "device": "rmx3371",

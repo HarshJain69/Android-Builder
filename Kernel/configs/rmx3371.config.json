@@ -3,9 +3,9 @@
     "kernelSource": {
       "name": "Pikachu-AOSP",
       "repo": "https://github.com/bibindasb/kernel_realme_rmx3371",
-      "branch": "pikachu-AOSP",
+      "branch": "Pikachu-RUI",
       "device": "rmx3371",
-      "defconfig": "vendor/sm8250_defconfig"
+      "defconfig": "vendor/kona-perf_defconfig"
     },
     "toolchains": [
       {

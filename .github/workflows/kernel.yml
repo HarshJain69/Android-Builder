@@ -345,16 +345,6 @@ jobs:
           if-no-files-found: ignore
           retention-days: 7
 
-      - name: ❤️ Upload dtbo.img
-        uses: actions/upload-artifact@v3
-        env:
-          ARCH: ${{ steps.generate-args.outputs.ARCH }}
-        with:
-          name: ${{ env.KERNEL_NAME }}-${{ env.BUILD_DATE }}-dtbo.img
-          path: ${{ env.OUT_DIR }}/arch/${{ env.ARCH }}/boot/dtbo.img
-          if-no-files-found: ignore
-          retention-days: 7
-
       - name: ☢️ Upload output directory
         uses: actions/upload-artifact@v3
         env:

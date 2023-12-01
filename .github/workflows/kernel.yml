@@ -388,9 +388,6 @@ jobs:
             if [ -e "${{ env.OUT_DIR }}/arch/${{ env.ARCH }}/boot/dtbo" ]; then
               cp -f ${{ env.OUT_DIR }}/arch/${{ env.ARCH }}/boot/dtbo ./AnyKernel3/
             fi
-            if [ -e "${{ env.OUT_DIR }}/arch/${{ env.ARCH }}/boot/dtbo.img" ]; then
-              cp -f ${{ env.OUT_DIR }}/arch/${{ env.ARCH }}/boot/dtbo.img ./AnyKernel3/
-            fi
           fi
 
           cd AnyKernel3/

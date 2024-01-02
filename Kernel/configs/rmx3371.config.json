@@ -1,9 +1,9 @@
 [
   {
     "kernelSource": {
-      "name": "Pikachu-RUI",
+      "name": "clo",
       "repo": "https://github.com/bibindasb/kernel_realme_rmx3371",
-      "branch": "Pikachu-RUI",
+      "branch": "clo-upstream",
       "device": "rmx3371",
       "defconfig": "vendor/kona-perf_defconfig"
     },

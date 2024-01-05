@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "clo",
       "repo": "https://github.com/bibindasb/kernel_realme_rmx3371",
-      "branch": "clo-upstream",
+      "branch": "clo-cam",
       "device": "rmx3371",
       "defconfig": "vendor/kona-perf_defconfig"
     },

@@ -1,7 +1,7 @@
 [
   {
     "kernelSource": {
-      "name": "clo",
+      "name": "Pikachu-CLO",
       "repo": "https://github.com/bibindasb/kernel_realme_rmx3371",
       "branch": "test-clo",
       "device": "rmx3371",

@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "Pikachu-CLO",
       "repo": "https://github.com/bibindasb/kernel_realme_rmx3371",
-      "branch": "CLO-test",
+      "branch": "CLO",
       "device": "rmx3371",
       "defconfig": "vendor/kona-perf_defconfig"
     },

@@ -1,9 +1,9 @@
 [
   {
     "kernelSource": {
-      "name": "Pikachu-CLO",
+      "name": "Grass",
       "repo": "https://github.com/bibindasb/kernel_realme_rmx3371",
-      "branch": "CLO",
+      "branch": "MAIN",
       "device": "rmx3371",
       "defconfig": "vendor/kona-perf_defconfig"
     },

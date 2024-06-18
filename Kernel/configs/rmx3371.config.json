@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "Grass",
       "repo": "https://github.com/bibindasb/kernel_realme_rmx3371",
-      "branch": "MAIN",
+      "branch": "main",
       "device": "rmx3371",
       "defconfig": "vendor/kona-perf_defconfig"
     },
